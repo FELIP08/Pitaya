@@ -216,8 +216,8 @@ a:hover{
         display: flex;
     }
     .logo{
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
     }
     .main_menu{
         display: flex;
@@ -226,10 +226,10 @@ a:hover{
         padding-inline-start: 20px;
     }
     #elh{
-        margin-right: 10px;
+        margin-right: 5px;
     }
     a{
-        font-size: 8px;
+        font-size: 6px;
     }
     .banner{
         width: 100%;

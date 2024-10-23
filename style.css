@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+h1{
+    margin: 0%;
+}
+h2{
+    margin: 0%;
+}
+h3{
+    margin: 0%;
+    margin-bottom: 10px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Corben', serif;
+    color: #000;
+    background-color: #fff;
+}
+.menu{
+    height: 70px;
+    width: 100%;
+    font-weight: 700;
+    padding: 10px;
+    top: 0px;
+    position: fixed;
+    background-color: #ff9905;
+    box-shadow: 0px 6px 3px rgba(0,0,0,0.1);
+}
+.container{
+    height: 50px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #ff9905;
+}
+.imag{
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url("logo.jpeg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-indent: -9999em;
+    background-size: cover;
+    display: block;
+    border-radius: 50%;
+}
+.main_menu{
+    display: flex;
+}
+#listh{
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#elh{
+    display: inline-block;
+    margin-right: 40px;
+}
+a{
+    font-weight: 910;
+    text-decoration: none;
+    color: #FEEE91;
+}
+a:hover{
+    color: #1b064d;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.3);
+}
+.banner2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner2 img{
+    width: 100%;
+    height: 400px;
+}
+.content{
+    margin-top: 90px;
+    height: auto;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    box-shadow: 0px 12px 14px 0px rgba(0,0,0,0.35);
+    border-radius: 0px 0px 30px 30px;
+}
+.content-main{
+    padding: 30px;
+}
+.titulo{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.subtitulo{
+    text-transform: uppercase;
+    font-family: 'Corben', serif;
+}
+.text{
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.izquierda{
+    height: auto;
+    padding: 20px;
+    background-color: #FEEE91;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.derecha{
+    height: auto;
+    padding: 20px;
+    background-color: #FFBD73;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+}
+#listc{
+    padding-left: 20px;
+}
+.content-main .titulo{
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+.normal{
+    display: flex;
+    padding: 20px;
+    height: auto;
+}
+.normal-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+    margin-right: 30px;
+}
+.normal-img{
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.normal-img img{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.3);
+}
+#beneficios-text{
+    width: 70%;
+}
+#beneficios{
+    width: 25%;
+}
+#salud-text{
+    width: 70%;
+}
+#salud{
+    width: 25%;
+}
+#nosotros-text{
+    width: 100%;
+}
+.imagenes{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+.fotos{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.fotos img{
+    width: 100%;
+}
+
+@media (max-width: 720px){
+    h3{
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+    .menu{
+        height: 80px;
+        padding: 10px;
+    }
+    .container{
+        height: 60px;
+        width: 100%;
+    }
+    .imag{
+        display: flex;
+    }
+    .logo{
+        height: 60px;
+        width: 60px;
+    }
+    .main_menu{
+        display: flex;
+    }
+    #listh{
+        padding-inline-start: 20px;
+    }
+    #elh{
+        margin-right: 10px;
+    }
+    a{
+        font-size: 14px;
+    }
+    .banner{
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.3);
+    }
+    .banner2 img{
+        height: 200px;
+    }
+    .content-main{
+        padding: 20px;
+    }
+    .titulo{
+        margin-bottom: 20px;
+    }
+    .text{
+        margin-bottom: 15px;
+    }
+    .izquierda{
+        display: block;
+    }
+    .derecha{
+        display: block;
+    }
+    .normal{
+        display: block;
+    }
+    .normal-text{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .normal-img{
+        width: 70%;
+    }
+    #beneficios-text{
+        width: 100%;
+    }
+    #beneficios{
+        width: 70%;
+    }
+    #salud-text{
+        width: 100%;
+    }
+    #salud{
+        width: 70%;
+    }
+    #nosotros-text{
+        width: 100%;
+    }
+    .imagenes{
+        display: block;
+    }
+    .fotos{
+        width: 50%;
+    }
+}

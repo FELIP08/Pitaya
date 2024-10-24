@@ -208,6 +208,9 @@ a:hover{
 #natural img{
     border-radius: 100%;
 }
+#pasos{
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
 @media (max-width: 720px){
     h3{
         margin: 0%;
@@ -226,33 +229,28 @@ a:hover{
     }
     .logo{
         height: 60px;
-        width: 60px;
+        width:70px;
     }
     .main_menu{
         display: flex;
     }
     #listh{
-        padding-inline-start: 20px;
+        padding-inline-start: 10px;
     }
     #elh{
-        margin-right: 10px;
+        margin-right: 6px;
     }
     a{
-        font-size: 14px;
+        font-size: 9px;
     }
     .banner{
-        width: 100%;
-        height: 300px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .banner img{
-        width: 100%;
-        height: 100%;
-        box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.3);
+        height: 100px;
     }
     .banner2 img{
-        height: 200px;
+        height: 150px;
+    }
+    .content{
+        width: 100%;
     }
     .content-main{
         padding: 20px;
@@ -294,10 +292,22 @@ a:hover{
     #nosotros-text{
         width: 100%;
     }
+    #receta-text{
+        width: 100%;
+    }
+    #receta-img{
+        width: 75%;
+    }
     .imagenes{
         display: block;
     }
     .fotos{
+        width: 50%;
+    }
+    #vitamina{
+        width: 70%;
+    }
+    #natural{
         width: 50%;
     }
 }
